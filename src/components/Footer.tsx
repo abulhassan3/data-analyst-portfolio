@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Github, Linkedin } from "@/components/icons/Brand";
 
 export function Footer() {
   return (

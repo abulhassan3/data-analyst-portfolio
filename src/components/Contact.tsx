@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Github, Linkedin } from "@/components/icons/Brand";
 import { Section } from "./Section";
 import { z } from "zod";
 import { toast } from "sonner";

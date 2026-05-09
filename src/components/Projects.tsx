@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Github, ExternalLink, FileText, BarChart3, PieChart, Users } from "lucide-react";
+import { ExternalLink, FileText, BarChart3, PieChart, Users } from "lucide-react";
+import { Github } from "@/components/icons/Brand";
 import { Section } from "./Section";
 
 const projects = [
