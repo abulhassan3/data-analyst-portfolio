@@ -15,7 +15,7 @@ export function About() {
       id="about"
       eyebrow="About Me"
       title="Curious by nature, analytical by craft."
-      subtitle="I'm a fresher Data Analyst from Delhi, India, with a Science background and a passion for uncovering the story behind the numbers."
+      subtitle="I'm a fresher Data Analyst from Hyderabad, India, with a Science background and a passion for uncovering the story behind the numbers."
     >
       <div className="grid md:grid-cols-[1fr_1.2fr] gap-10 items-start">
         <motion.div
