@@ -78,16 +78,15 @@ export function Projects() {
               ))}
             </div>
             <div className="flex gap-2 pt-4 border-t border-border">
-              <a href="#" className="flex-1 inline-flex items-center justify-center gap-1.5 text-xs rounded-lg border border-border py-2 hover:bg-muted hover:text-primary transition">
-                <Github size={13} /> Code
-              </a>
-              <a href="#" className="flex-1 inline-flex items-center justify-center gap-1.5 text-xs rounded-lg border border-border py-2 hover:bg-muted hover:text-primary transition">
+              <a
+                href={p.demo}
+                {...(p.newTab ? { target: "_blank", rel: "noreferrer" } : {})}
+                className="flex-1 inline-flex items-center justify-center gap-1.5 text-xs rounded-lg border border-border py-2 hover:bg-muted hover:text-primary transition"
+              >
                 <ExternalLink size={13} /> Demo
               </a>
-              <a href="#" className="flex-1 inline-flex items-center justify-center gap-1.5 text-xs rounded-lg border border-border py-2 hover:bg-muted hover:text-primary transition">
-                <FileText size={13} /> Case
-              </a>
             </div>
+
           </motion.article>
         ))}
       </div>
