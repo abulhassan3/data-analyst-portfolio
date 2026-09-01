@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, BarChart3, PieChart, Users } from "lucide-react";
+import { ExternalLink, BarChart3, PieChart, Users, Activity } from "lucide-react";
 import { Section } from "./Section";
 import salesData from "@/assets/sales-data.xlsx.asset.json";
 
