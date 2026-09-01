@@ -37,6 +37,17 @@ const projects = [
     demo: salesData.url,
     newTab: true,
   },
+  {
+    title: "Operations & MIS Reporting System",
+    summary:
+      "Built an MIS reporting system for tracking daily operational performance. Created dashboards to monitor productivity, attendance, TAT, SLA and pending cases. Used Power Query for data cleaning and transformation, automated repetitive reporting with Excel functions and structured templates, and generated management-level reports to support operational decision-making.",
+    tags: ["Advanced Excel", "Power Query", "Power BI"],
+    icon: Activity,
+    metric: "5+",
+    metricLabel: "KPIs Tracked",
+    demo: "https://ops-mis-operating-system.lovable.app",
+    newTab: true,
+  },
 ];
 
 
