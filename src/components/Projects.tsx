@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { ExternalLink, FileText, BarChart3, PieChart, Users } from "lucide-react";
-import { Github } from "@/components/icons/Brand";
+import { ExternalLink, BarChart3, PieChart, Users } from "lucide-react";
 import { Section } from "./Section";
+import salesData from "@/assets/sales-data.xlsx.asset.json";
 
 const projects = [
   {
@@ -12,6 +12,8 @@ const projects = [
     icon: BarChart3,
     metric: "+18%",
     metricLabel: "Insight Lift",
+    demo: salesData.url,
+    newTab: true,
   },
   {
     title: "Customer Segmentation",
@@ -21,6 +23,8 @@ const projects = [
     icon: Users,
     metric: "5",
     metricLabel: "Segments",
+    demo: "#home",
+    newTab: false,
   },
   {
     title: "Sales Performance Dashboard",
@@ -30,8 +34,11 @@ const projects = [
     icon: PieChart,
     metric: "12",
     metricLabel: "KPIs Tracked",
+    demo: salesData.url,
+    newTab: true,
   },
 ];
+
 
 export function Projects() {
   return (
