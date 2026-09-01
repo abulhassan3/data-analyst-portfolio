@@ -45,7 +45,7 @@ export function Contact() {
           {[
             { icon: Mail, label: "Email", value: "grdabul@gmail.com", href: "mailto:grdabul@gmail.com" },
             { icon: Phone, label: "Phone", value: "+91 88629 65493", href: "tel:+918862965493" },
-            { icon: MapPin, label: "Location", value: "Delhi, India" },
+            { icon: MapPin, label: "Location", value: "Hyderabad, India" },
           ].map((c) => (
             <div key={c.label} className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-lg bg-primary/15 text-primary flex items-center justify-center shrink-0">
@@ -63,8 +63,8 @@ export function Contact() {
           ))}
           <div className="pt-4 border-t border-border flex gap-3">
             {[
-              { icon: Linkedin, href: "https://linkedin.com/" },
-              { icon: Github, href: "https://github.com/" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/md-abul-hassan" },
+              { icon: Github, href: "https://github.com/abulhassan3" },
               { icon: Mail, href: "mailto:grdabul@gmail.com" },
             ].map((s, i) => (
               <a

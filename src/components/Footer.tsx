@@ -9,10 +9,10 @@ export function Footer() {
           © {new Date().getFullYear()} <span className="text-foreground font-medium">Md Abul Hassan</span>. Crafted with data, design, and care.
         </div>
         <div className="flex items-center gap-3">
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-lg glass flex items-center justify-center hover:text-primary transition">
+          <a href="https://www.linkedin.com/in/md-abul-hassan" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-lg glass flex items-center justify-center hover:text-primary transition">
             <Linkedin size={15} />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-lg glass flex items-center justify-center hover:text-primary transition">
+          <a href="https://github.com/abulhassan3" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-lg glass flex items-center justify-center hover:text-primary transition">
             <Github size={15} />
           </a>
           <a href="mailto:grdabul@gmail.com" className="w-9 h-9 rounded-lg glass flex items-center justify-center hover:text-primary transition">
