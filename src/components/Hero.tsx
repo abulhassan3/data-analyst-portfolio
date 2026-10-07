@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Download, FolderGit2, Mail, Sparkles } from "lucide-react";
-import profile from "@/assets/profile.jpg";
+import profileAsset from "@/assets/profile-photo.jpeg.asset.json";
+const profile = profileAsset.url;
 
 export function Hero() {
   return (
